@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  max-width: 100%
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.cabecalho{
+  background-color: #eee;
+  height: 100px;
+  display: flex;
+}
+.cabecalho h1{
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  font-weight: 900;
+
+}
+
+.artigo h2{
+  padding: .6rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin: 1rem 0;
+}
+
+.blocs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.blocs::after{
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: #eee;
+  margin: 3rem auto 0;
+}
+
+.artigo p{
+  max-width: 50%;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.artigo img{
+  max-width: 45%;
+  margin: 0 2.5%;
+}
